@@ -4,8 +4,9 @@ import CarCard from './Carcard';
 
 function Cars({cars}) {
   
-  console.log(cars.message);
-  let isEmpty = cars.length<3;
+  console.log(cars);
+  let isEmpty = cars.length>3;
+  console.log(isEmpty);
    
     
   return (
